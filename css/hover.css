@@ -1,0 +1,33 @@
+@media only screen and (min-width: 768px) {
+    .shadow-bg:hover {
+        -webkit-box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.12), 0px 1px 12px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.12), 0px 1px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    .tell-info:hover,
+    .mail-info:hover {
+        color: #0EB57D;
+    }
+
+    .tell-info:hover:after,
+    .mail-info:hover:after {
+        width: 100%;
+    }
+
+    .image-link:hover .pic-box:after {
+        opacity: 1;
+    }
+
+    .image-link:hover .text-box:before {
+        border-color: transparent transparent #0EB57D transparent;
+    }
+
+    .image-link:hover .text-box {
+        background-color: #0EB57D;
+    }
+
+    .image-link:hover .text-box .image-info,
+    .image-link:hover .text-box .image-about {
+        color: white;
+    }
+}

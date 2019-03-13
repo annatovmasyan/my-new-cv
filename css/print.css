@@ -1,0 +1,30 @@
+@media print {
+
+    .print-btn {
+        display: none;
+    }
+
+    .linkedin {
+        display: none;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    .section-content {
+        margin-bottom: 0;
+    }
+
+    .about-section{
+        margin-top: 0;
+    }
+
+    .education-section {
+        page-break-after: always;
+    }
+
+    .portfolio-section {
+        display: none;
+    }
+}

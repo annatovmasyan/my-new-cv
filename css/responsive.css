@@ -1,0 +1,64 @@
+@media only screen and (max-width: 930px) {
+    .container {
+        width: 700px;
+    }
+
+    .skills-block {
+        width: 100%;
+    }
+
+    .progress {
+        width: 100%;
+    }
+
+    .center-block {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .progress-block:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+
+    .image-out,
+    .about-data {
+        float: none;
+        margin: auto;
+        width: 100%;
+    }
+
+    .image-out{
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .responsive-d-none:after,
+    .responsive-d-none:before {
+        display: none;
+    }
+
+    .container-left,
+    .container-right {
+        width: 100%;
+        left: 0;
+    }
+
+    .image-block {
+        display: block;
+        width: 100%;
+    }
+
+    .image-block:nth-last-child(-n+3) {
+        margin-bottom: 30px;
+    }
+
+}
+
+
